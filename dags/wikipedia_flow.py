@@ -7,6 +7,7 @@ import os
 import sys
 from datetime import datetime
 
+#import modules from other directories
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from pipelines.wikipedia_pipeline import transform_wikipedia_data,extract_wikipedia_data, write_wikipedia_data, load_to_database
