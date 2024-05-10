@@ -23,7 +23,7 @@ In addition, I deployed Airflow on Docker to make it run fast and easier.
  ## 3. Loading
 
 Sqlachemy is a easy-to-use library that I used to insert tabular transformed data to PostgresSQL database.
-Perfrom basic SQL querying statements in PostgreSQL.
+Perform basic SQL querying statements in PostgreSQL.
 
  <img src='project-image\data_in_postgres.png' width =700>
  
